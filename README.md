@@ -1,16 +1,18 @@
-
-<h1 align="center">植物大战僵尸 AI 版</h1>
+<h1 align="center">植物大战僵尸 AI 魔改版</h1>
 <p align="center">
   <a href="https://opensource.org/license/MIT"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT许可证"></a>
-  <a href="#"><img src="https://img.shields.io/badge/version-1.0.0-green.svg" alt="版本"></a>
+  <a href="#"><img src="https://img.shields.io/badge/version-2.0.0-green.svg" alt="版本"></a>
   <a href="#"><img src="https://img.shields.io/badge/platform-Web-orange.svg" alt="平台"></a>
+  <a href="#"><img src="https://img.shields.io/badge/AI-Powered-purple.svg" alt="AI驱动"></a>
 </p>
 
 <hr/>
 
 ## 📖 项目简介
 
-这是一个使用HTML5、CSS3和JavaScript开发的网页版植物大战僵尸游戏，基于AI辅助开发。游戏复刻了经典植物大战僵尸的核心玩法，包括阳光收集、植物种植和抵御僵尸入侵等元素。本项目旨在展示如何使用现代网页技术实现经典游戏，同时也是一次AI辅助编程的尝试。
+这是一个由 AI 驱动的网页版植物大战僵尸游戏，不仅基于 AI 辅助开发，更支持玩家们通过 AI 进行魔改。游戏不仅复刻了经典植物大战僵尸的核心玩法，还允许每个玩家成为"法师"，用自己的"咒语集"（prompt 集）来创造独特的游戏体验。
+
+本项目展示了如何将 AI 与游戏开发结合，让每个参与者都能贡献自己的创意，打造属于自己的植物大战僵尸版本。
 
 ![首页点击开始](https://cdn.canghecode.com/blog/20250508232428.png)
 
@@ -85,13 +87,26 @@ python -m http.server
 - **Tailwind CSS**：优化UI展示效果
 - **Web Font**：使用Google Fonts提升视觉体验
 
-## 🧠 AI开发
+## 🧠 AI 魔改系统
 
-本项目是在AI助手的辅助下完成的，展示了人工智能在编程领域的应用潜力。AI主要提供了以下支持：
-- 游戏架构设计
-- 核心游戏逻辑实现
-- 界面和交互设计
-- 性能优化建议
+本项目采用了创新的 AI 魔改系统，让每个参与者都能成为游戏设计师：
+
+### 🎭 法师系统
+- **成为法师**：每个参与者都是一位游戏魔改大师
+- **咒语集**：通过编写专属的 prompt 集来创造独特玩法
+- **魔改效果**：可以改变游戏规则、添加新植物、设计新僵尸等
+
+### 🔮 咒语集功能
+- **自定义玩法**：创造专属的游戏机制
+- **植物设计**：设计新的植物类型和能力
+- **僵尸创新**：创造独特的僵尸种类
+- **场景魔改**：定制游戏场景和关卡
+
+### 💫 AI 辅助开发
+- **架构设计**：AI 辅助游戏架构规划
+- **代码生成**：自动生成游戏逻辑代码
+- **创意激发**：AI 提供创新玩法建议
+- **优化建议**：性能和游戏体验优化
 
 ## 📝 待实现功能
 
@@ -111,6 +126,42 @@ python -m http.server
 3. 提交你的更改 (`git commit -m '添加一些很棒的功能'`)
 4. 推送到分支 (`git push origin feature/amazing-feature`)
 5. 开启一个Pull Request
+
+## 🎨 成为魔改法师
+
+### 🚀 快速开始
+1. 克隆魔法工坊：
+   ```bash
+   git clone <项目地址>
+   cd plants-vs-zombies-ai
+   ```
+
+2. 启动魔法工坊：
+   ```bash
+   python -m http.server
+   # 访问 http://localhost:8000 开始你的魔法之旅
+   ```
+
+### 📚 创建咒语集
+1. 打开 Web 界面，点击"咒语集管理"
+2. 输入你的法师名称和咒语内容
+3. 点击"上传咒语"保存你的创作
+
+### 🛠 高级魔法师
+如果你精通魔法（代码），还可以：
+1. 直接编辑 `prompts/` 目录下的咒语集文件
+2. 使用 `scripts/manage_prompts.py` 管理咒语
+3. 通过 Pull Request 分享你的魔法
+
+## 📁 魔法工坊结构
+```
+plants-vs-zombies-ai/
+├── index.html         # 魔法主界面
+├── prompts/           # 咒语集存储
+│   └── README.md      # 咒语编写指南
+└── scripts/           # 魔法工具箱
+    └── manage_prompts.py  # 咒语管理工具
+```
 
 ## 📜 版权说明
 
